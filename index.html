@@ -1,1 +1,338 @@
-<!doctype html><meta charset="utf-8"><title>ContaPro</title><script>const b64=`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`;const bin=atob(b64),a=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)a[i]=bin.charCodeAt(i);new Response(new Blob([a]).stream().pipeThrough(new DecompressionStream('gzip'))).text().then(html=>{document.open();document.write(html);document.close()});</script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ContaPro — Contabilidad y Estados Financieros</title>
+<style>
+:root{
+  --bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#667085;--line:#e4e7ec;
+  --primary:#059669;--primary2:#047857;--success:#0f9f68;--danger:#c9364b;
+  --warning:#a16207;--shadow:0 8px 30px rgba(6,78,59,.09);--radius:14px
+}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
+button,input,select,textarea{font:inherit} button{cursor:pointer}
+.app{display:flex;min-height:100vh}.sidebar{width:255px;background:#064e3b;color:#fff;padding:20px 14px;position:fixed;inset:0 auto 0 0;z-index:5}
+.brand{font-size:21px;font-weight:800;padding:8px 12px 22px}.brand span{color:#6ee7b7}
+.nav button{width:100%;text-align:left;background:transparent;border:0;color:#cfd6e4;padding:12px;border-radius:9px;margin:2px 0}
+.nav button:hover,.nav button.active{background:#047857;color:#fff}.nav small{display:block;color:#98a2b3;text-transform:uppercase;font-size:10px;letter-spacing:1px;padding:18px 12px 5px}
+.main{margin-left:255px;width:calc(100% - 255px);padding:24px 30px}.top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:20px}
+h1{font-size:27px;margin:0 0 4px}.subtitle{color:var(--muted);font-size:14px}.actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:#fff;color:var(--text);padding:9px 13px;border-radius:9px;font-weight:600}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}.btn.primary:hover{background:var(--primary2);border-color:var(--primary2)}.btn.success{background:var(--success);border-color:var(--success);color:#fff}.btn.success:hover{filter:brightness(.96)}.btn.danger{color:var(--danger)}.btn:hover{border-color:#86efac;background:#f0fdf4}.btn:focus-visible{outline:3px solid #10b98155;outline-offset:2px}
+.page{display:none}.page.active{display:block}.grid{display:grid;gap:16px}.cards{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px}.metric{font-size:25px;font-weight:800;margin-top:8px;color:#065f46}.label{font-size:12px;color:var(--muted)}.up{color:var(--success)}.down{color:var(--danger)}
+.two{grid-template-columns:1.3fr .7fr}.three{grid-template-columns:repeat(3,1fr)}
+.section-title{font-size:17px;font-weight:750;margin:0 0 14px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px}th{background:#f8fafc;text-align:left;color:#475467;font-size:11px;text-transform:uppercase;letter-spacing:.4px}
+th,td{padding:10px 11px;border-bottom:1px solid var(--line);white-space:nowrap}tbody tr:hover{background:#f0fdf4}td.num,th.num{text-align:right}.total{font-weight:800;background:#f8fafc}
+.form-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.field{display:flex;flex-direction:column;gap:5px}.field label{font-size:12px;color:#475467;font-weight:650}.field input,.field select,.field textarea{border:1px solid #d0d5dd;border-radius:8px;padding:9px;background:#fff;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--primary);box-shadow:0 0 0 3px #10b9812b}
+.form-actions{margin-top:12px;display:flex;gap:8px;justify-content:flex-end}.notice{padding:12px;border-radius:9px;background:#ecfdf5;color:#065f46;font-size:13px;margin-bottom:12px}
+.tabs{display:flex;gap:6px;margin-bottom:14px;border-bottom:1px solid var(--line)}.tab{border:0;background:transparent;padding:10px 12px;color:var(--muted);font-weight:650}.tab.active{color:var(--primary);border-bottom:2px solid var(--primary)}
+.badge{display:inline-block;padding:3px 7px;border-radius:20px;font-size:11px;font-weight:700}.asset{background:#d1fae5;color:#047857}.liability{background:#fff2df;color:#9b5a00}.equity{background:#eeeafd;color:#6048b6}.income{background:#d1fae5;color:#047857}.expense{background:#fdebec;color:#b4233a}
+.empty{padding:30px;text-align:center;color:var(--muted)}.right{text-align:right}.muted{color:var(--muted)}
+.modal{position:fixed;inset:0;background:#064e3b99;display:none;align-items:center;justify-content:center;z-index:20;padding:20px}.modal.open{display:flex}.modal-box{background:#fff;border-radius:16px;max-width:900px;width:100%;max-height:90vh;overflow:auto;padding:20px;box-shadow:0 20px 70px #0003}
+.toast{position:fixed;right:22px;bottom:22px;background:#064e3b;color:#fff;padding:12px 16px;border-radius:9px;display:none;z-index:30}.toast.show{display:block}
+.kpi{display:flex;justify-content:space-between;align-items:center}.small{font-size:12px}.footer-note{margin-top:15px;color:var(--muted);font-size:12px}
+@media(max-width:1000px){.sidebar{width:205px}.main{margin-left:205px;width:calc(100% - 205px)}.cards{grid-template-columns:repeat(2,1fr)}.form-grid{grid-template-columns:repeat(2,1fr)}.two,.three{grid-template-columns:1fr}}
+@media(max-width:680px){.sidebar{position:static;width:100%;height:auto}.app{display:block}.main{margin:0;width:100%;padding:15px}.nav{display:flex;overflow:auto}.nav small{display:none}.nav button{white-space:nowrap}.cards{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}}
+@media print{.sidebar,.actions,.no-print{display:none!important}.main{margin:0;width:100%;padding:0}.page{display:none!important}.page.printing{display:block!important}.card{box-shadow:none}.table-wrap{border:0}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand">Conta<span>Pro</span></div>
+  <div class="nav">
+    <small>Principal</small>
+    <button data-page="dashboard" class="active">▦ Dashboard</button>
+    <button data-page="journal">▤ Libro diario</button>
+    <button data-page="ledger">≡ Libro mayor</button>
+    <button data-page="trial">Σ Balance de comprobación</button>
+    <small>Estados</small>
+    <button data-page="income">◫ Estado de resultados</button>
+    <button data-page="balance">▥ Balance general</button>
+    <button data-page="cashflow">↔ Flujo de efectivo</button>
+    <small>Configuración</small>
+    <button data-page="accounts">⚙ Plan de cuentas</button>
+  </div>
+</aside>
+
+<main class="main">
+  <div class="top">
+    <div><h1 id="pageTitle">Dashboard</h1><div class="subtitle">Sistema contable de partida doble</div></div>
+    <div class="actions">
+      <button class="btn" onclick="exportData()">Exportar datos</button>
+      <button class="btn" onclick="document.getElementById('importFile').click()">Importar</button>
+      <input id="importFile" type="file" accept=".json" hidden onchange="importData(event)">
+      <button class="btn primary" onclick="openJournalModal()">+ Nuevo asiento</button>
+    </div>
+  </div>
+
+  <section id="dashboard" class="page active">
+    <div class="grid cards">
+      <div class="card"><div class="label">Activos</div><div class="metric" id="mAssets">Bs 0,00</div></div>
+      <div class="card"><div class="label">Pasivos</div><div class="metric" id="mLiab">Bs 0,00</div></div>
+      <div class="card"><div class="label">Patrimonio</div><div class="metric" id="mEquity">Bs 0,00</div></div>
+      <div class="card"><div class="label">Resultado del período</div><div class="metric" id="mProfit">Bs 0,00</div></div>
+    </div>
+    <div class="grid two">
+      <div class="card"><h2 class="section-title">Resumen financiero</h2><div id="dashSummary"></div></div>
+      <div class="card"><h2 class="section-title">Actividad reciente</h2><div id="recent"></div></div>
+    </div>
+    <div class="card" style="margin-top:16px"><h2 class="section-title">Controles contables</h2><div id="controls"></div></div>
+  </section>
+
+  <section id="journal" class="page">
+    <div class="card">
+      <div class="kpi"><h2 class="section-title">Libro diario</h2><button class="btn primary" onclick="openJournalModal()">+ Registrar asiento</button></div>
+      <div class="notice">Cada asiento debe estar cuadrado: total Debe = total Haber.</div>
+      <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>N°</th><th>Concepto</th><th class="num">Debe</th><th class="num">Haber</th><th>Estado</th><th></th></tr></thead><tbody id="journalBody"></tbody></table></div>
+    </div>
+  </section>
+
+  <section id="ledger" class="page">
+    <div class="card">
+      <div class="kpi"><h2 class="section-title">Libro mayor</h2><select id="ledgerAccount" onchange="renderLedger()"></select></div>
+      <div id="ledgerContent"></div>
+    </div>
+  </section>
+
+  <section id="trial" class="page">
+    <div class="card">
+      <h2 class="section-title">Balance de comprobación</h2>
+      <div class="table-wrap"><table><thead><tr><th>Código</th><th>Cuenta</th><th>Tipo</th><th class="num">Debe</th><th class="num">Haber</th><th class="num">Saldo</th></tr></thead><tbody id="trialBody"></tbody><tfoot id="trialFoot"></tfoot></table></div>
+    </div>
+  </section>
+
+  <section id="income" class="page">
+    <div class="card">
+      <div class="kpi"><h2 class="section-title">Estado de resultados</h2><button class="btn" onclick="printPage('income')">Imprimir</button></div>
+      <div id="incomeContent"></div>
+    </div>
+  </section>
+
+  <section id="balance" class="page">
+    <div class="card">
+      <div class="kpi"><h2 class="section-title">Balance general</h2><button class="btn" onclick="printPage('balance')">Imprimir</button></div>
+      <div id="balanceContent"></div>
+    </div>
+  </section>
+
+  <section id="cashflow" class="page">
+    <div class="card">
+      <div class="kpi"><h2 class="section-title">Flujo de efectivo</h2><button class="btn" onclick="printPage('cashflow')">Imprimir</button></div>
+      <div id="cashContent"></div>
+    </div>
+  </section>
+
+  <section id="accounts" class="page">
+    <div class="card">
+      <div class="kpi"><h2 class="section-title">Plan de cuentas</h2><button class="btn primary" onclick="openAccountModal()">+ Nueva cuenta</button></div>
+      <div class="table-wrap"><table><thead><tr><th>Código</th><th>Cuenta</th><th>Tipo</th><th>Clasificación</th><th></th></tr></thead><tbody id="accountsBody"></tbody></table></div>
+      <div class="footer-note">Puede adaptar los códigos y nombres a su plan contable local. Los estados se calculan a partir del tipo de cuenta y de los movimientos registrados.</div>
+    </div>
+  </section>
+</main>
+</div>
+
+<div class="modal" id="journalModal">
+ <div class="modal-box">
+  <div class="kpi"><h2>Nuevo asiento contable</h2><button class="btn" onclick="closeModal('journalModal')">✕</button></div>
+  <div class="form-grid">
+   <div class="field"><label>Fecha</label><input type="date" id="jDate"></div>
+   <div class="field"><label>Referencia</label><input id="jRef" placeholder="AS-001"></div>
+   <div class="field" style="grid-column:span 2"><label>Concepto</label><input id="jDesc" placeholder="Descripción del hecho económico"></div>
+  </div>
+  <div style="margin-top:18px"><div class="kpi"><h3>Partidas</h3><button class="btn" onclick="addLine()">+ Línea</button></div>
+   <div class="table-wrap"><table><thead><tr><th style="width:35%">Cuenta</th><th>Detalle</th><th class="num">Debe</th><th class="num">Haber</th><th></th></tr></thead><tbody id="linesBody"></tbody></table></div>
+  </div>
+  <div class="form-actions"><span id="entryTotals" class="muted" style="margin-right:auto"></span><button class="btn" onclick="closeModal('journalModal')">Cancelar</button><button class="btn primary" onclick="saveJournal()">Guardar asiento</button></div>
+ </div>
+</div>
+
+<div class="modal" id="accountModal">
+ <div class="modal-box" style="max-width:520px">
+  <div class="kpi"><h2>Nueva cuenta</h2><button class="btn" onclick="closeModal('accountModal')">✕</button></div>
+  <div class="form-grid" style="grid-template-columns:1fr 2fr">
+   <div class="field"><label>Código</label><input id="aCode" placeholder="1.1.01"></div>
+   <div class="field"><label>Nombre</label><input id="aName" placeholder="Caja"></div>
+   <div class="field"><label>Tipo</label><select id="aType"><option>Activo</option><option>Pasivo</option><option>Patrimonio</option><option>Ingreso</option><option>Gasto</option></select></div>
+   <div class="field"><label>Clasificación</label><input id="aClass" placeholder="Corriente"></div>
+  </div>
+  <div class="form-actions"><button class="btn" onclick="closeModal('accountModal')">Cancelar</button><button class="btn primary" onclick="saveAccount()">Guardar</button></div>
+ </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const KEY='contapro_singlefile_v1';
+const money = n => new Intl.NumberFormat('es-BO',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n||0);
+const today=()=>new Date().toISOString().slice(0,10);
+const defaultAccounts=[
+ {code:'1.1.01',name:'Caja',type:'Activo',class:'Corriente'},
+ {code:'1.1.02',name:'Bancos',type:'Activo',class:'Corriente'},
+ {code:'1.1.03',name:'Cuentas por cobrar',type:'Activo',class:'Corriente'},
+ {code:'1.2.01',name:'Equipos y mobiliario',type:'Activo',class:'No corriente'},
+ {code:'2.1.01',name:'Cuentas por pagar',type:'Pasivo',class:'Corriente'},
+ {code:'2.1.02',name:'Préstamos por pagar',type:'Pasivo',class:'No corriente'},
+ {code:'3.1.01',name:'Capital',type:'Patrimonio',class:'Capital'},
+ {code:'3.1.02',name:'Resultados acumulados',type:'Patrimonio',class:'Patrimonio'},
+ {code:'4.1.01',name:'Ventas',type:'Ingreso',class:'Operativo'},
+ {code:'4.1.02',name:'Otros ingresos',type:'Ingreso',class:'No operativo'},
+ {code:'5.1.01',name:'Costo de ventas',type:'Gasto',class:'Costo'},
+ {code:'5.2.01',name:'Sueldos y salarios',type:'Gasto',class:'Operativo'},
+ {code:'5.2.02',name:'Alquileres',type:'Gasto',class:'Operativo'},
+ {code:'5.2.03',name:'Servicios básicos',type:'Gasto',class:'Operativo'},
+ {code:'5.2.04',name:'Depreciación',type:'Gasto',class:'Operativo'}
+];
+const sampleEntries=[
+ {id:1,date:'2026-09-01',ref:'AS-001',desc:'Aporte inicial de capital',lines:[
+  {account:'1.1.02',detail:'Depósito bancario',debit:50000,credit:0},{account:'3.1.01',detail:'Capital social',debit:0,credit:50000}]},
+ {id:2,date:'2026-09-03',ref:'AS-002',desc:'Compra de equipo al contado',lines:[
+  {account:'1.2.01',detail:'Equipo de oficina',debit:12000,credit:0},{account:'1.1.02',detail:'Pago por banco',debit:0,credit:12000}]},
+ {id:3,date:'2026-09-08',ref:'AS-003',desc:'Venta de servicios al contado',lines:[
+  {account:'1.1.02',detail:'Cobro de servicios',debit:18000,credit:0},{account:'4.1.01',detail:'Ingresos por servicios',debit:0,credit:18000}]},
+ {id:4,date:'2026-09-12',ref:'AS-004',desc:'Pago de alquiler',lines:[
+  {account:'5.2.02',detail:'Alquiler del mes',debit:2500,credit:0},{account:'1.1.02',detail:'Pago por banco',debit:0,credit:2500}]},
+ {id:5,date:'2026-09-15',ref:'AS-005',desc:'Compra de insumos a crédito',lines:[
+  {account:'5.1.01',detail:'Insumos',debit:4000,credit:0},{account:'2.1.01',detail:'Cuenta por pagar',debit:0,credit:4000}]}
+];
+let state=JSON.parse(localStorage.getItem(KEY)||'null')||{accounts:defaultAccounts,entries:sampleEntries,nextId:6};
+
+function save(){localStorage.setItem(KEY,JSON.stringify(state));renderAll()}
+function account(code){return state.accounts.find(a=>a.code===code)}
+function totals(){
+ const t={}; state.accounts.forEach(a=>t[a.code]={debit:0,credit:0});
+ state.entries.forEach(e=>e.lines.forEach(l=>{if(!t[l.account])t[l.account]={debit:0,credit:0};t[l.account].debit+=+l.debit||0;t[l.account].credit+=+l.credit||0}));
+ return t
+}
+function balanceFor(a,t){const x=t[a.code]||{debit:0,credit:0}; return ['Activo','Gasto'].includes(a.type)?x.debit-x.credit:x.credit-x.debit}
+function typeBadge(t){return `<span class="badge ${({Activo:'asset',Pasivo:'liability',Patrimonio:'equity',Ingreso:'income',Gasto:'expense'})[t]||''}">${t}</span>`}
+function openModal(id){document.getElementById(id).classList.add('open')}
+function closeModal(id){document.getElementById(id).classList.remove('open')}
+function toast(s){const e=document.getElementById('toast');e.textContent=s;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),2400)}
+function nav(page){
+ document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));
+ document.getElementById(page).classList.add('active');
+ document.querySelectorAll('.nav button').forEach(x=>x.classList.toggle('active',x.dataset.page===page));
+ const names={dashboard:'Dashboard',journal:'Libro diario',ledger:'Libro mayor',trial:'Balance de comprobación',income:'Estado de resultados',balance:'Balance general',cashflow:'Flujo de efectivo',accounts:'Plan de cuentas'};
+ document.getElementById('pageTitle').textContent=names[page]||page;
+ renderAll()
+}
+document.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>nav(b.dataset.page));
+
+function renderDashboard(){
+ const t=totals();let sums={Activo:0,Pasivo:0,Patrimonio:0,Ingreso:0,Gasto:0};
+ state.accounts.forEach(a=>sums[a.type]+=balanceFor(a,t));
+ const profit=sums.Ingreso-sums.Gasto;
+ document.getElementById('mAssets').textContent='Bs '+money(sums.Activo);
+ document.getElementById('mLiab').textContent='Bs '+money(sums.Pasivo);
+ document.getElementById('mEquity').textContent='Bs '+money(sums.Patrimonio);
+ document.getElementById('mProfit').textContent='Bs '+money(profit);
+ document.getElementById('dashSummary').innerHTML=`
+ <div class="kpi"><span>Ingresos</span><b>Bs ${money(sums.Ingreso)}</b></div>
+ <div class="kpi" style="margin-top:12px"><span>Gastos</span><b>Bs ${money(sums.Gasto)}</b></div>
+ <div class="kpi" style="margin-top:12px"><span>Resultado</span><b class="${profit>=0?'up':'down'}">Bs ${money(profit)}</b></div>
+ <hr style="border:0;border-top:1px solid var(--line);margin:16px 0">
+ <div class="kpi"><span>Pasivo + Patrimonio + Resultado</span><b>Bs ${money(sums.Pasivo+sums.Patrimonio+profit)}</b></div>`;
+ document.getElementById('recent').innerHTML=state.entries.slice().sort((a,b)=>b.date.localeCompare(a.date)).slice(0,5).map(e=>`
+ <div style="padding:9px 0;border-bottom:1px solid var(--line)"><div class="kpi"><b>${e.ref}</b><span class="small muted">${e.date}</span></div><div class="small">${e.desc}</div></div>`).join('')||'<div class="empty">Sin movimientos</div>';
+ const diff=Object.values(t).reduce((s,x)=>s+x.debit-x.credit,0);
+ document.getElementById('controls').innerHTML=`
+ <div class="grid three">
+  <div><b>Asientos registrados</b><div class="metric">${state.entries.length}</div></div>
+  <div><b>Partida doble</b><div class="metric ${Math.abs(diff)<.005?'up':'down'}">${Math.abs(diff)<.005?'CUADRADA':'REVISAR'}</div></div>
+  <div><b>Cuentas activas</b><div class="metric">${state.accounts.length}</div></div>
+ </div>`;
+}
+function renderJournal(){
+ const body=document.getElementById('journalBody');
+ body.innerHTML=state.entries.slice().sort((a,b)=>a.date.localeCompare(b.date)||a.id-b.id).map(e=>{
+  const d=e.lines.reduce((s,l)=>s+(+l.debit||0),0),h=e.lines.reduce((s,l)=>s+(+l.credit||0),0);
+  return `<tr><td>${e.date}</td><td>${e.ref}</td><td>${e.desc}</td><td class="num">Bs ${money(d)}</td><td class="num">Bs ${money(h)}</td><td>${Math.abs(d-h)<.005?'<span class="badge asset">Cuadrado</span>':'<span class="badge expense">Descuadrado</span>'}</td><td><button class="btn danger" onclick="deleteEntry(${e.id})">Eliminar</button></td></tr>`}).join('')||'<tr><td colspan="7" class="empty">No hay asientos</td></tr>';
+}
+function renderAccounts(){
+ document.getElementById('accountsBody').innerHTML=state.accounts.map(a=>`<tr><td>${a.code}</td><td><b>${a.name}</b></td><td>${typeBadge(a.type)}</td><td>${a.class}</td><td><button class="btn danger" onclick="deleteAccount('${a.code}')">Eliminar</button></td></tr>`).join('');
+ const sel=document.getElementById('ledgerAccount'),old=sel.value;
+ sel.innerHTML=state.accounts.map(a=>`<option value="${a.code}">${a.code} — ${a.name}</option>`).join('');
+ if(old&&state.accounts.some(a=>a.code===old))sel.value=old;
+}
+function renderLedger(){
+ const code=document.getElementById('ledgerAccount').value;if(!code)return;
+ const a=account(code), rows=[];let running=0,totalD=0,totalH=0;
+ state.entries.slice().sort((x,y)=>x.date.localeCompare(y.date)||x.id-y.id).forEach(e=>e.lines.filter(l=>l.account===code).forEach(l=>{
+  running += (+l.debit||0)-(+l.credit||0); totalD+=+l.debit||0;totalH+=+l.credit||0;
+  rows.push(`<tr><td>${e.date}</td><td>${e.ref}</td><td>${e.desc}</td><td class="num">Bs ${money(l.debit)}</td><td class="num">Bs ${money(l.credit)}</td><td class="num">Bs ${money(running)}</td></tr>`);
+ }));
+ document.getElementById('ledgerContent').innerHTML=`<div class="notice"><b>${a.code} — ${a.name}</b> · ${a.type} · Saldo: Bs ${money(balanceFor(a,totals()))}</div>
+ <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Ref.</th><th>Concepto</th><th class="num">Debe</th><th class="num">Haber</th><th class="num">Saldo</th></tr></thead><tbody>${rows.join('')||'<tr><td colspan="6" class="empty">Sin movimientos</td></tr>'}</tbody><tfoot><tr class="total"><td colspan="3">Totales</td><td class="num">Bs ${money(totalD)}</td><td class="num">Bs ${money(totalH)}</td><td></td></tr></tfoot></table></div>`;
+}
+function renderTrial(){
+ const t=totals();let td=0,th=0;
+ document.getElementById('trialBody').innerHTML=state.accounts.map(a=>{const x=t[a.code]||{debit:0,credit:0};td+=x.debit;th+=x.credit;return `<tr><td>${a.code}</td><td>${a.name}</td><td>${typeBadge(a.type)}</td><td class="num">Bs ${money(x.debit)}</td><td class="num">Bs ${money(x.credit)}</td><td class="num">Bs ${money(balanceFor(a,t))}</td></tr>`}).join('');
+ document.getElementById('trialFoot').innerHTML=`<tr class="total"><td colspan="3">TOTALES</td><td class="num">Bs ${money(td)}</td><td class="num">Bs ${money(th)}</td><td class="num">Bs ${money(Math.abs(td-th))}</td></tr>`;
+}
+function renderStatements(){
+ const t=totals(), groups={Activo:[],Pasivo:[],Patrimonio:[],Ingreso:[],Gasto:[]};state.accounts.forEach(a=>groups[a.type].push({...a,b:balanceFor(a,t)}));
+ const sum=x=>x.reduce((s,a)=>s+a.b,0), income=sum(groups.Ingreso), expense=sum(groups.Gasto), profit=income-expense;
+ document.getElementById('incomeContent').innerHTML=`<div style="max-width:760px;margin:auto"><div class="muted">Período: movimientos registrados</div>
+ <h3>Ingresos</h3>${groups.Ingreso.map(a=>`<div class="kpi"><span>${a.code} — ${a.name}</span><span>Bs ${money(a.b)}</span></div>`).join('')||'<div class="muted">Sin ingresos</div>'}
+ <h3 style="margin-top:20px">Gastos y costos</h3>${groups.Gasto.map(a=>`<div class="kpi"><span>${a.code} — ${a.name}</span><span>Bs ${money(a.b)}</span></div>`).join('')||'<div class="muted">Sin gastos</div>'}
+ <hr><div class="kpi"><b>Total ingresos</b><b>Bs ${money(income)}</b></div><div class="kpi" style="margin-top:8px"><b>Total gastos</b><b>Bs ${money(expense)}</b></div>
+ <div class="card" style="margin-top:18px;background:#f8fafc"><div class="kpi"><b>RESULTADO DEL PERÍODO</b><b class="${profit>=0?'up':'down'}">Bs ${money(profit)}</b></div></div></div>`;
+ const left=(type,title)=>`<h3>${title}</h3>${groups[type].map(a=>`<div class="kpi"><span>${a.code} — ${a.name}</span><span>Bs ${money(a.b)}</span></div>`).join('')||'<div class="muted">Sin cuentas</div>'}<div class="kpi total" style="margin-top:8px;padding:10px"><b>Total ${title.toLowerCase()}</b><b>Bs ${money(sum(groups[type]))}</b></div>`;
+ document.getElementById('balanceContent').innerHTML=`<div class="grid two"><div>${left('Activo','Activos')}</div><div>${left('Pasivo','Pasivos')}${left('Patrimonio','Patrimonio')}<div class="kpi" style="margin-top:16px"><b>Resultado del período</b><b>Bs ${money(profit)}</b></div></div></div>
+ <div class="card" style="margin-top:20px;background:#f8fafc"><div class="kpi"><b>Total activos</b><b>Bs ${money(sum(groups.Activo))}</b></div><div class="kpi"><b>Pasivos + Patrimonio + Resultado</b><b>Bs ${money(sum(groups.Pasivo)+sum(groups.Patrimonio)+profit)}</b></div></div>`;
+ const cashCodes=groups.Activo.filter(a=>/caja|banco|efectivo/i.test(a.name)).map(a=>a.code);
+ let cashRows=[],net=0;
+ state.entries.slice().sort((a,b)=>a.date.localeCompare(b.date)).forEach(e=>e.lines.forEach(l=>{if(cashCodes.includes(l.account)){const delta=(+l.debit||0)-(+l.credit||0);net+=delta;cashRows.push(`<tr><td>${e.date}</td><td>${e.ref}</td><td>${e.desc}</td><td class="num">Bs ${money(delta)}</td><td class="num">Bs ${money(net)}</td></tr>`)}}));
+ document.getElementById('cashContent').innerHTML=`<div class="notice">Vista simplificada basada en movimientos de Caja/Bancos. Para un flujo de efectivo formal por actividades, clasifique las transacciones según la norma contable aplicable.</div>
+ <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Ref.</th><th>Concepto</th><th class="num">Variación</th><th class="num">Acumulado</th></tr></thead><tbody>${cashRows.join('')||'<tr><td colspan="5" class="empty">Sin movimientos de efectivo</td></tr>'}</tbody></table></div>`;
+}
+function renderAll(){renderDashboard();renderJournal();renderAccounts();renderTrial();renderStatements();if(document.getElementById('ledger').classList.contains('active'))renderLedger()}
+function openJournalModal(){
+ document.getElementById('jDate').value=today();document.getElementById('jRef').value='AS-'+String(state.nextId).padStart(3,'0');document.getElementById('jDesc').value='';
+ document.getElementById('linesBody').innerHTML='';addLine();addLine();openModal('journalModal');updateEntryTotals();
+}
+function accountOptions(){return state.accounts.map(a=>`<option value="${a.code}">${a.code} — ${a.name}</option>`).join('')}
+function addLine(){
+ const tr=document.createElement('tr');tr.innerHTML=`<td><select class="line-account">${accountOptions()}</select></td><td><input class="line-detail" placeholder="Detalle"></td><td><input class="line-debit" type="number" min="0" step="0.01" value="0"></td><td><input class="line-credit" type="number" min="0" step="0.01" value="0"></td><td><button class="btn danger" onclick="this.closest('tr').remove();updateEntryTotals()">✕</button></td>`;
+ document.getElementById('linesBody').appendChild(tr);tr.querySelectorAll('input,select').forEach(x=>x.addEventListener('input',updateEntryTotals));
+}
+function updateEntryTotals(){
+ let d=0,h=0;document.querySelectorAll('#linesBody tr').forEach(r=>{d+=+r.querySelector('.line-debit').value||0;h+=+r.querySelector('.line-credit').value||0});
+ const el=document.getElementById('entryTotals');el.textContent=`Debe: Bs ${money(d)} · Haber: Bs ${money(h)} · Diferencia: Bs ${money(d-h)}`;el.style.color=Math.abs(d-h)<.005?'var(--success)':'var(--danger)';
+}
+function saveJournal(){
+ const date=document.getElementById('jDate').value,ref=document.getElementById('jRef').value.trim(),desc=document.getElementById('jDesc').value.trim();let lines=[];
+ document.querySelectorAll('#linesBody tr').forEach(r=>{const debit=+r.querySelector('.line-debit').value||0,credit=+r.querySelector('.line-credit').value||0;if(debit||credit)lines.push({account:r.querySelector('.line-account').value,detail:r.querySelector('.line-detail').value.trim(),debit,credit})});
+ const d=lines.reduce((s,l)=>s+l.debit,0),h=lines.reduce((s,l)=>s+l.credit,0);
+ if(!date||!ref||!desc)return toast('Complete fecha, referencia y concepto.');
+ if(lines.length<2)return toast('El asiento necesita al menos dos partidas.');
+ if(Math.abs(d-h)>.005)return toast('El asiento no está cuadrado.');
+ state.entries.push({id:state.nextId++,date,ref,desc,lines});save();closeModal('journalModal');toast('Asiento registrado correctamente.');
+}
+function deleteEntry(id){if(confirm('¿Eliminar este asiento?')){state.entries=state.entries.filter(e=>e.id!==id);save();toast('Asiento eliminado.');}}
+function openAccountModal(){['aCode','aName','aClass'].forEach(id=>document.getElementById(id).value='');openModal('accountModal')}
+function saveAccount(){
+ const code=document.getElementById('aCode').value.trim(),name=document.getElementById('aName').value.trim(),type=document.getElementById('aType').value,cl=document.getElementById('aClass').value.trim()||'General';
+ if(!code||!name)return toast('Complete código y nombre.');
+ if(state.accounts.some(a=>a.code===code))return toast('El código ya existe.');
+ state.accounts.push({code,name,type,class:cl});save();closeModal('accountModal');toast('Cuenta creada.');
+}
+function deleteAccount(code){
+ if(state.entries.some(e=>e.lines.some(l=>l.account===code)))return toast('No puede eliminar una cuenta con movimientos.');
+ if(confirm('¿Eliminar esta cuenta?')){state.accounts=state.accounts.filter(a=>a.code!==code);save();toast('Cuenta eliminada.');}
+}
+function exportData(){
+ const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='contapro-backup.json';a.click();URL.revokeObjectURL(a.href);
+}
+function importData(ev){
+ const f=ev.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const x=JSON.parse(r.result);if(!x.accounts||!x.entries)throw 0;state=x;save();toast('Datos importados.')}catch(e){toast('Archivo no válido.')}};r.readAsText(f);ev.target.value='';
+}
+function printPage(page){document.querySelectorAll('.page').forEach(x=>x.classList.remove('printing'));document.getElementById(page).classList.add('printing');window.print();setTimeout(()=>document.getElementById(page).classList.remove('printing'),500)}
+renderAll();
+</script>
+</body>
+</html>
